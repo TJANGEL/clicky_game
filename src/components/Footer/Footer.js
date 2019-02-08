@@ -9,8 +9,8 @@ const Footer = () => (
           <img
             className="logo"
             id="reactLogo"
-            alt="donut"
-            src="./images/donut2.png"
+            alt="simpsons"
+            src=" public/favicon.ico"
           />
         </span>{" "}
         Clicky Game!
@@ -19,7 +19,7 @@ const Footer = () => (
       <li>
         <a href="https://github.com/TJANGEL/clicky_game" target="blank">
           <span>
-            <i class="fab fa-github" />{" "}
+            <i className="fab fa-github" />{" "}
           </span>{" "}
         </a>
       </li>
