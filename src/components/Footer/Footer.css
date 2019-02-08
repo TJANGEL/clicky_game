@@ -1,0 +1,84 @@
+.footer {
+  min-height: 80px;
+  width: 100%;
+  background-color: rgb(56, 56, 56);
+  position: absolute;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  padding-top: 25px;
+}
+
+ul.footer-list {
+  list-style-type: none;
+  padding: 10;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+.footer-list li {
+  display: inline-block;
+  width: 33%;
+  color: ivory;
+}
+
+.footer-list li a {
+  color: ivory;
+}
+
+i {
+  font-size: 24px;
+}
+
+i:hover {
+  color: #fed420;
+}
+
+li.copyright {
+  color: #fed420;
+}
+
+#reactLogo {
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .bottom {
+    bottom: -30px;
+  }
+
+  #footer-list li {
+    width: 100%;
+    display: block;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-height: 860px) and (min-width: 1000px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
