@@ -30,6 +30,28 @@ ul {
   align-items: center;
 }
 
+#rw {
+  margin-left: 20px;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+
+#cur-sco,
+#top-sco {
+  text-align: right;
+}
+
+#cur-sco {
+  margin-right: 20px;
+}
+
+#top-sco {
+  margin-right: 25px;
+}
+
+/* #top-sco {
+} */
+
 @media only screen and (max-width: 750px) {
   #cur-sco,
   #top-sco {
