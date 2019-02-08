@@ -10,7 +10,7 @@ const Footer = () => (
             className="logo"
             id="reactLogo"
             alt="simpsons"
-            src=" public/favicon.ico"
+            src="./public/favicon.ico"
           />
         </span>{" "}
         Clicky Game!
