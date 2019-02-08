@@ -1,7 +1,6 @@
 .wrapper {
   background: rgb(175, 175, 175);
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Simpsons-Background-Free.jpg");
-  /* background-repeat: no-repeat; */
+  background-image: url("https://i.imgur.com/7MJ1RwK.jpg");
   background-size: cover;
   height: 100%;
   display: flex;
@@ -9,5 +8,5 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
 }
