@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/ComicBookGuy2.gif",
+    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Grampa2.gif",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/BarneyBikini.gif",
+    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/NedFlanders3.gif",
     "clicked": false
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "id": 4,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MrBurns4.gif",
+    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MrBurns1.gif",
     "clicked": false
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "id": 7,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/NedFlanders2.gif",
+    "image": "http://www.simpsoncrazy.com/content/pictures/homer/homer-doh.png",
     "clicked": false
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "id": 9,
-    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Milhouse2.gif",
+    "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Milhouse1.gif",
     "clicked": false
   },
   {
