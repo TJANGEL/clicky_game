@@ -6,6 +6,7 @@ nav {
   background-color: rgb(56, 56, 56);
   height: auto;
   font-family: "Bungee", cursive;
+  box-shadow: 0 0 100px 3px ivory;
 }
 
 a {
