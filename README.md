@@ -35,7 +35,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-![clicky_game](https://github.com/TJANGEL/sequelizedBurger/blob/master/public/assets/img/sequelizedburger_screenshot.png)
+![clicky_game](https://github.com/TJANGEL/clicky_game/blob/master/public/assets/images/clicky_game_screenshot.png)
 
 ## Heroku Deployed Link
 
