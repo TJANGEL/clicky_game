@@ -1,5 +1,7 @@
 # The Simpsons Clicky Game
 
+![clicky_game](https://github.com/TJANGEL/clicky_game/blob/master/public/assets/images/clicky_game_screenshot.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Link to homer bushes gif = https://media.giphy.com/media/xfAgILDksDJJu/giphy.gif
@@ -34,8 +36,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-![clicky_game](https://github.com/TJANGEL/clicky_game/blob/master/public/assets/images/clicky_game_screenshot.png)
 
 ## Heroku Deployed Link
 
