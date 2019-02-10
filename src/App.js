@@ -82,8 +82,8 @@ class App extends Component {
         />
 
         <Title className="title">
-          Try to click each character once, but don't click any duplicates, or
-          we'll release the hounds!
+          Try to click each character once, but don't click any characters
+          twice, or we'll release the hounds!
         </Title>
 
         <Container>
