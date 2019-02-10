@@ -5,8 +5,12 @@ nav {
   margin-bottom: 50px;
   background-color: rgb(56, 56, 56);
   height: auto;
-  font-family: "Bungee", cursive;
-  /* box-shadow: 0 0 100px 3px ivory; */
+  /* font-family: "Bungee", cursive; */
+  /* font-family: "Bevan", cursive; */
+  /* font-family: "Titan One", cursive; */
+  /* font-family: "Bowlby One", cursive; */
+  /* font-family: "Baloo Tammudu", cursive; */
+  /* font-family: "Jua", sans-serif; */
 }
 
 a {
@@ -49,9 +53,6 @@ ul {
 #top-sco {
   margin-right: 45px;
 }
-
-/* #top-sco {
-} */
 
 @media only screen and (max-width: 750px) {
   #cur-sco,

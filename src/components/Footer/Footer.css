@@ -22,11 +22,15 @@ ul.footer-list {
   display: inline-block;
   width: 33%;
   color: ivory;
-  font-family: "Jua", sans-serif;
 }
 
 .footer-list li a {
   color: ivory;
+}
+
+li {
+  font-family: "Baloo Tammudu", cursive;
+  /* font-family: "Titan One", cursive; */
 }
 
 i {
@@ -39,7 +43,6 @@ i:hover {
 
 li.copyright {
   color: #fed420;
-  font-family: "Jua", sans-serif;
 }
 
 /* img {
