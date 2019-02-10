@@ -3,11 +3,12 @@ import FriendCard from "./components/FriendCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Container from "./Container";
+import Container from "./components/Container";
 import Footer from "./components/Footer";
-import Row from "./Row";
-import Column from "./Column";
+import Row from "./components/Row";
+import Column from "./components/Column";
 import friends from "./friends.json";
+import Alert from "./components/Alert";
 import "./App.css";
 
 function shuffleFriends(array) {
@@ -59,7 +60,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      message: "Release The Hounds!",
+      message: "Release the Hounds!",
       clicked: [],
       shakeit: true
     });
