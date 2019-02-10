@@ -19,7 +19,7 @@ a:hover {
 nav li {
   display: inline-block;
   padding: 20px;
-  width: 25%;
+  width: 100%;
 }
 
 ul {
@@ -29,7 +29,6 @@ ul {
 
 /* notification */
 #message {
-  margin-left: 20px;
   font-size: 28px;
   color: red;
   text-shadow: 2px 2px white;
