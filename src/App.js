@@ -24,14 +24,18 @@ class App extends Component {
     friends,
     currentScore: 0,
     topScore: 0,
-    rightWrong: "",
-    clicked: []
+    message: "",
+    clicked: [],
+    shakeit: false
   };
 
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
-      this.setState({ clicked: this.state.clicked.concat(id) });
+      this.setState({
+        clicked: this.state.clicked.concat(id)
+        // shakeit: false
+      });
     } else {
       this.handleReset();
     }
@@ -41,12 +45,12 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      rightWrong: ""
+      message: ""
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     } else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+      this.setState({ message: "You win!" });
     }
     this.handleShuffle();
   };
@@ -55,8 +59,9 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Release The Hounds!",
-      clicked: []
+      message: "Release The Hounds!",
+      clicked: [],
+      shakeit: true
     });
     this.handleShuffle();
   };
@@ -68,12 +73,12 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <Wrapper shakeWrapper={this.state.shakeit}>
         <Nav
           title="The Simpsons"
           score={this.state.currentScore}
           topScore={this.state.topScore}
-          rightWrong={this.state.rightWrong}
+          message={this.state.message}
         />
 
         <Title className="title">

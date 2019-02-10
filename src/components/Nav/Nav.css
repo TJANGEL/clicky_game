@@ -28,10 +28,12 @@ ul {
 }
 
 /* notification */
-#rw {
+#message {
   margin-left: 20px;
+  font-size: 28px;
   color: red;
   text-shadow: 2px 2px white;
+  font-family: "Bungee", cursive;
 }
 
 /* scores */
