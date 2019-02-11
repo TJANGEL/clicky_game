@@ -1,5 +1,15 @@
 # The Simpsons Clicky Game
 
+Simpsons Themed Image memory game
+
+Players must click each of the 12 character only once in order to win
+
+If they click a character's image multiple times in a round they lose
+
+Every time an image is clicked, the images rendered to the page shuffle themselves in a random order
+
+Once the user's score is reset after an incorrect guess, the game restarts
+
 ![clicky_game](https://github.com/TJANGEL/clicky_game/blob/master/public/assets/images/clicky_game_screenshot.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -40,10 +50,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ## Heroku Deployed Link
 
 Click [here](https://tranquil-anchorage-64499.herokuapp.com/) to view heroku deployed website
-
-### npm install packages
-
-``
 
 ## Built With
 

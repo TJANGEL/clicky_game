@@ -60,7 +60,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      message: "Release the Hounds!",
+      message: "D'oh!",
       clicked: [],
       shakeit: true
     });
@@ -83,8 +83,8 @@ class App extends Component {
         />
 
         <Title className="title">
-          Try to click each character once, but don't click any characters
-          twice, or we'll release the hounds!
+          Click each character once without clicking the same character multiple
+          times
         </Title>
 
         <Container>
