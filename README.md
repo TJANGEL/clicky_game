@@ -2,7 +2,7 @@
 
 Simpsons Themed Image memory game
 
-Players must click each of the 12 character only once in order to win
+Players must click each of the 12 characters only once in order to win
 
 If they click a character's image multiple times in a round they lose
 
@@ -14,7 +14,7 @@ Once the user's score is reset after an incorrect guess, the game restarts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Link to homer bushes gif = https://media.giphy.com/media/xfAgILDksDJJu/giphy.gif
+<!-- Link to homer bushes gif = https://media.giphy.com/media/xfAgILDksDJJu/giphy.gif -->
 
 ## Available Scripts
 
