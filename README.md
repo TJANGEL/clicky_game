@@ -45,8 +45,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
 ## Netlify Deployed Link
 
 Click [here](https://infallible-dubinsky-3e04a5.netlify.com) to view Netlify deployed website
