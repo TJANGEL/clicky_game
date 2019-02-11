@@ -47,9 +47,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-## Heroku Deployed Link
+## Netlify Deployed Link
 
-Click [here](https://tranquil-anchorage-64499.herokuapp.com/) to view heroku deployed website
+Click [here](https://infallible-dubinsky-3e04a5.netlify.com) to view Netlify deployed website
 
 ## Built With
 
