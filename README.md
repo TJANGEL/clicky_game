@@ -53,9 +53,6 @@ Click [here](https://infallible-dubinsky-3e04a5.netlify.com) to view Netlify dep
 
 ## Built With
 
-- [Express.js](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [nodemon](https://nodemon.io/)
+- [React.js](https://reactjs.org/)
+- [Netlify](https://www.netlify.com/) - Deployment service
 - [Bootstrap](https://getbootstrap.com/) - CSS Framework
-- [express-handlebars](https://www.npmjs.com/package/express-handlebars) -views engine
-- [mysql](https://www.mysql.com/) - database
-- [sequelize](http://docs.sequelizejs.com/) - promise based ORM
