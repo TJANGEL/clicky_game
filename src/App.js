@@ -34,8 +34,9 @@ class App extends Component {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({
-        clicked: this.state.clicked.concat(id)
+        clicked: this.state.clicked.concat(id),
         // shakeit: false
+        message: "Mmmm Donuts"
       });
     } else {
       this.handleReset();
