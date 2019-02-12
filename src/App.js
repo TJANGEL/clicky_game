@@ -84,8 +84,10 @@ class App extends Component {
         />
 
         <Title className="title">
-          Click each character once without clicking the same character multiple
-          times
+          Win by clicking each of the characters only once
+          <br />
+          <br />
+          Don't click any character multiple times or you lose!
         </Title>
 
         <Container>
