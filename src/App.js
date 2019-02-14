@@ -84,10 +84,10 @@ class App extends Component {
         />
 
         <Title className="title">
-          Win by clicking each of the characters only once
+          Win by clicking every character
           <br />
           <br />
-          Don't click any character multiple times or you lose!
+          Don't click any character twice or you lose!
         </Title>
 
         <Container>
