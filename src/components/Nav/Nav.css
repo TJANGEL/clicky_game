@@ -7,10 +7,27 @@ nav {
   height: auto;
 }
 
+@keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
 .brand {
   color: #fed420;
   padding-top: 20px;
   font-family: "Bungee", cursive;
+  -webkit-mask-image: linear-gradient(
+    15deg,
+    rgba(0, 0, 0, 0.6) 60%,
+    #000 80%,
+    rgba(0, 0, 0, 1) 90%
+  );
+  -webkit-mask-size: 200%;
+  animation: shine 2s linear infinite;
 }
 
 nav li {
