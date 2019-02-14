@@ -8,9 +8,10 @@ import Footer from "./components/Footer";
 import Row from "./components/Row";
 import Column from "./components/Column";
 import friends from "./friends.json";
-import Alert from "./components/Alert";
+// import Alert from "./components/Alert";
 import "./App.css";
 
+// shuffle friends function
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -30,6 +31,7 @@ class App extends Component {
     shakeit: false
   };
 
+  // when character click
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -43,6 +45,7 @@ class App extends Component {
     }
   };
 
+  // increase score when character click
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
@@ -57,6 +60,7 @@ class App extends Component {
     this.handleShuffle();
   };
 
+  // restart game when wrong click
   handleReset = () => {
     this.setState({
       currentScore: 0,
@@ -68,6 +72,7 @@ class App extends Component {
     this.handleShuffle();
   };
 
+  // shuffle friends
   handleShuffle = () => {
     let shuffledFriends = shuffleFriends(friends);
     this.setState({ friends: shuffledFriends });
