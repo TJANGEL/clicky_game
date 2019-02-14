@@ -7,13 +7,10 @@ nav {
   height: auto;
 }
 
-a {
+.brand {
   color: #fed420;
-}
-
-a:hover {
-  color: #fed420;
-  text-decoration: none;
+  padding-top: 20px;
+  font-family: "Bungee", cursive;
 }
 
 nav li {
@@ -29,7 +26,7 @@ ul {
 
 /* notification */
 #message {
-  font-size: 28px;
+  font-size: 38px;
   color: red;
   text-shadow: 2px 2px white;
   font-family: "Bungee", cursive;
